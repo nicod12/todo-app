@@ -24,3 +24,4 @@ export const Todo: React.FC<Props> = ({ id, title, completed, onRemovetodo, onTo
         </div>
   )
 }
+as
