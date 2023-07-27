@@ -19,7 +19,7 @@ export const CreateTodo: React.FC<Props> = ({ saveTodo }) => {
         className='new-todo'
         value={inputValue}
         onChange={(e) => { setInputValue(e.target.value) }}
-        placeholder='Agrega algo a la lista'
+        placeholder='Agregar y presionar enter'
         autoFocus
     />
     </form>
